@@ -1,5 +1,5 @@
 body{
-background-image: url(code4.jpg);
+background-image: url(back7.jpg);
 margin: 0;
 
 }
@@ -15,31 +15,61 @@ header{
   padding-left: 10px;
   float: left;
 }
+
 header h1{
-  display: block;
+
   text-align: center;
-  font-size: 70px;
+  font-size: 65px;
   padding-top: 20px;
-
-
-    font-family: 'Spicy Rice', cursive;
-
-
+  font-weight: 900;
+  font-family: 'Titillium Web', sans-serif;
   padding-bottom: 10px;
+  margin-bottom: 0;
 }
 header h2{
   display: block;
   text-align: center;
 
+margin-top: 0;
+margin-bottom: 0;
+    font-family: 'Titillium Web', sans-serif;
 
-    font-family: 'Spicy Rice', cursive;
-
-
-  font-size: 40px;
+  font-size: 35px;
 }
+.details{
+  font-weight: 900;
+  padding-top: 60px;
+  font-size: 25px;
+}
+.contacts {
+width: 100%;
+margin: 0 ;
+height: 60px;
+line-height: 60px;
+}
+
+.contacts img{
+  padding: 10px;
+  width:40px;
+  height: 40px;
+}
+.imgg1,.imgg2,.imgg3{
+  display: inline-block;
+  height:  60px;
+}
+.contacts a{
+  line-height: 60px;
+}
+
+.contacts img:hover{
+  width: 50px;
+  height:50px;
+}
+
+
 .profile{
   display: block;
-background-color: #fffb75;
+background-color: #ffff99;
 margin: 20px auto 0 auto;
 width: 1000px;
 margin-bottom: 20px;
@@ -70,7 +100,7 @@ font-family: 'Baloo Thambi 2', cursive;
 
 .objective{
   display: block;
-background-color: #fffb75;
+background-color: #ffff99;
 margin: 0 auto;
 width: 1000px;
 }
@@ -98,22 +128,26 @@ width: 1000px;
 
 .qualifications{
   display: block;
-background-color: #fffb75;
+background-color: #ffff99;
 margin: 0 auto;
 width: 1000px;
 }
 .qualifications ul li{
-  display: block;
+  display: list-item;
   text-align: center;
   font-family: 'Baloo Thambi 2', cursive;
   font-size: 20px;
-  padding: 10px;}
+  padding: 10px;
+}
+
   .qualifications ul li a {
   text-decoration: none;
   font-family: 'Baloo Thambi 2', cursive;
 }
 .qualifications ul{
-margin-top: 0;
+margin: 0 auto;
+width: 500px;
+
 }
 .qualifications h4{
   display: block;
@@ -130,7 +164,7 @@ margin-top: 0;
 
 }
 .education{
-background-color: #fffb75;
+background-color: #ffff99;
 margin: 0 auto;
 width: 1000px;
 }
@@ -150,7 +184,7 @@ width: 1000px;
   font-family: 'Baloo Thambi 2', cursive;
   font-size: 25px;
   padding: 10px;
-  background-color: #d3d3d3;
+  background-color: #f8f8ff;
   width: 500px;
   margin:0 auto;
   margin-bottom: 20px;
@@ -160,7 +194,7 @@ width: 1000px;
   font-family: 'Baloo Thambi 2', cursive;
   font-size: 25px;
   padding: 10px;
-  background-color: #d3d3d3;
+  background-color: #f8f8ff;
   width:500px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -171,10 +205,18 @@ width: 1000px;
   font-size: 25px;
   font-family: 'Baloo Thambi 2', cursive;
   padding: 10px;
-  background-color: #d3d3d3;
+  background-color: #f8f8ff;
   width:500px;
     margin: 0 auto;
     margin-bottom: 20px;
+}
+.education .edu4{
+  background-color: #ffff99;
+  margin-bottom: 20px;
+  width:500px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
 }
 .education .edu1 p a {
 text-decoration: none;
@@ -186,9 +228,10 @@ font-family: 'Baloo Thambi 2', cursive;
   font-family: 'Baloo Thambi 2', cursive;
 
 }
+
 .workshop{
   display: block;
-background-color: #fffb75;
+background-color: #ffff99;
 margin: 0 auto;
 width: 1000px;
 }
@@ -221,7 +264,7 @@ font-family: 'Baloo Thambi 2', cursive;
 }
 .skills{
   display: block;
-background-color: #fffb75;
+background-color: #ffff99;
 margin: 0 auto;
 width: 1000px;
 }
@@ -233,6 +276,7 @@ width: 1000px;
 .skills ul li{
   display: list-item;
   font-size: 25px;
+  text-align: center;
   font-family: 'Baloo Thambi 2', cursive;
   padding: 10px ;
   margin: 0;
@@ -273,8 +317,13 @@ footer ul li {
 list-style: none;
   display: inline;
 }
+
 footer ul li a{
 text-decoration: none;
+}
+.last{
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 footer {
   background-color: #fff8dc;
