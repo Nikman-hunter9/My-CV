@@ -1,0 +1,448 @@
+body{
+background-image: url(back7.jpg);
+margin: 0;
+
+}
+nav .container-fluid .navbar-header a{
+  font-weight: 900;
+}
+.active a{
+  font-weight: 600;
+}
+.dropdown .dropdown-toggle{
+
+  font-weight: 600;
+}
+.last-class a{
+  font-weight: 600;
+}
+.dropdown-menu li a{
+ font-weight: 500;
+}
+.contact-me .row .col-xs-4 ul li img{
+
+}
+.index-intro{
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.index-intro .jumbotron
+{
+  margin-top: 30px;
+    box-shadow: 10px 10px 5px grey;
+
+}
+
+.index-intro .jumbotron .row .col-sm-4 img{
+  width:200px;
+  height:200px;
+}
+.index-intro .container .jumbotron .row .col-sm-8 h1{
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.index-intro .container .jumbotron .row .col-sm-8 p{
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.contact-me .row .col-sm-8 #map{
+  height:300px;
+  width: 100%;
+
+}
+.contact-me .col-sm-3
+{
+  box-shadow: 10px 10px 5px grey;
+  background-color: #ffff99;
+}
+
+.contact-me .col-sm-8{
+
+ box-shadow: 10px 10px 5px grey;
+ background-color: #ffff99;
+}
+
+
+
+.container .contact-me .row .col-sm-3 .contacts2 .imgg3 img{
+  width: 70px;
+  height: 75px;
+}
+.container .contact-me .row .col-sm-3 .contacts2 img:hover{
+  width: 80px;
+  height:80px;
+}
+.col-sm-3 h4{
+  font-family: 'Spicy Rice', cursive;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px red;
+}
+.col-sm-8 h4
+{font-size: 35px;
+  text-align: center;
+  font-family: 'Spicy Rice', cursive;
+  text-shadow: 2px 2px 5px red;
+}
+
+.contacts2 a div{
+  text-align: center;
+}
+.contacts2 .col-sm-8 .{
+  height: 600px;
+}
+.contacts2 a h6{
+text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  font-size: 20px;
+}
+.languages ul li a img:hover{
+  width: 80px;
+  height: 80px;
+}
+
+
+.main1{
+  width: 100%;
+}
+.main1 .profile{
+  display: block;
+background-color: #ffff99;
+margin: 20px auto 0 auto;
+box-shadow: 10px 10px 5px grey;
+margin-bottom: 20px;
+}
+.main1 .profile h4{
+  display: block;
+  text-shadow: 2px 2px 5px red;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 20px;
+
+
+    font-family: 'Spicy Rice', cursive;
+
+
+padding-bottom: 0;
+margin: 0;
+}
+.main1 .profile p{
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  padding-top:  10px;
+padding-bottom: 10px;
+margin: 0;
+font-family: 'Baloo Thambi 2', cursive;
+
+
+}
+
+.objective{
+  display: block;
+background-color: #ffff99;
+margin: 0 auto;
+box-shadow: 10px 10px 5px grey;
+}
+.objective h4{
+  display: block;
+  text-shadow: 2px 2px 5px red;
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+  padding-bottom: 0;
+
+
+    font-family: 'Spicy Rice', cursive;
+
+
+  margin-bottom: 0;
+}
+.objective p{
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 0;
+  font-family: 'Baloo Thambi 2', cursive;
+  text-shadow: 2px 2px 4px #000000;
+}
+.languages{
+background-color: #ffff99;
+margin: 0 auto;
+display: block;
+box-shadow: 10px 10px 5px grey;
+}
+.languages h4{
+  display: block;
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+  font-size: 35px;
+  padding: 20px;
+
+
+    font-family: 'Spicy Rice', cursive;
+
+
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.languages ul{
+  text-align: center;
+}
+.languages ul li
+{
+  display: inline-block;
+  padding: 20px;
+
+}
+.qualifications{
+  display: block;
+
+background-color: #ffff99;
+margin: 0 auto;
+box-shadow: 10px 10px 5px grey;
+}
+.qualifications ul li{
+  display: list-item;
+  text-align: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 20px;
+  padding: 10px;
+}
+
+  .qualifications ul li a {
+  text-decoration: none;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+.qualifications ul{
+margin: 0 auto;
+
+}
+.qualifications h4{
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px red;
+  padding: 20px;
+
+
+    font-family: 'Spicy Rice', cursive;
+
+
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+.education{
+background-color: #ffff99;
+margin: 0 auto;
+box-shadow: 10px 10px 5px grey;
+}
+.education h4{
+  text-align: center;
+text-shadow: 2px 2px 5px red;
+
+    font-family: 'Spicy Rice', cursive;
+
+
+  font-size: 35px;
+  padding: 20px;
+}
+
+.education .edu1{
+  text-align: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 25px;
+  padding: 10px;
+  background-color: #f8f8ff;
+
+  margin:0 auto;
+  margin-bottom: 20px;
+}
+.education .edu2{
+  text-align: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 25px;
+  padding: 10px;
+  background-color: #f8f8ff;
+
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+.education .edu3{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Baloo Thambi 2', cursive;
+  padding: 10px;
+  background-color: #f8f8ff;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.education .edu4{
+  background-color: #ffff99;
+  margin-bottom: 20px;
+
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+.education .edu1 h5{
+  font-size: 27px;
+  font-weight: 600;
+}
+.education .edu2 h5{
+  font-size: 27px;
+  font-weight: 600;
+}
+.education .edu3 h5{
+  font-size: 27px;
+  font-weight: 600;
+}
+.education .edu1 p a {
+text-decoration: none;
+font-family: 'Baloo Thambi 2', cursive;
+}
+.education .edu2 p a
+{
+  text-decoration: none;
+  font-family: 'Baloo Thambi 2', cursive;
+
+}
+
+.workshop{
+  display: block;
+background-color: #ffff99;
+margin: 0 auto;
+box-shadow: 10px 10px 5px grey;
+
+}
+.workshop ul{
+
+  margin: 0 auto;
+  padding-right: 0;
+}
+.workshop ul li{
+  font-size: 25px;
+  padding: 10px;
+font-family: 'Baloo Thambi 2', cursive;
+  display: list-item;
+  text-align: center;
+}
+.workshop ul li a{
+  text-decoration: none;
+}
+.workshop h4{
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+text-shadow: 2px 2px 5px red;
+
+    font-family: 'Spicy Rice', cursive;
+
+
+}
+.skills{
+  display: block;
+background-color: #ffff99;
+margin: 0 auto;
+box-shadow: 10px 10px 5px grey;
+
+}
+.skills ul{
+
+  margin: 0 auto;
+  padding-right: 0;
+}
+.skills ul li{
+  display: list-item;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  padding: 10px ;
+  margin: 0;
+  padding: 0;
+  padding: 10px 0 ;
+}
+
+.skills h4{
+  text-align: center;
+text-shadow: 2px 2px 5px red;
+
+    font-family: 'Spicy Rice', cursive;
+
+
+  font-size: 35px;
+  padding: 20px;
+  padding-bottom: 0;
+  margin: 0;
+}
+.image1{
+
+padding: 0;
+height: 20px;
+width:20px;
+}
+.image2{
+padding: 0;
+height: 20px;
+width:20px;
+}
+.image3{
+  margin: 0 auto;
+padding: 0;
+height: 20px;
+width:20px;
+}
+footer ul li {
+list-style: none;
+  display: inline;
+}
+
+footer ul li a{
+text-decoration: none;
+}
+.last{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+footer {
+  background-color: #fff8dc;
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 768px)
+{
+  .education .edu1{
+    width: 500px;
+  }
+  .education .edu3{
+    width: 500px;
+  }.education .edu2{
+    width: 500px;
+  }
+}

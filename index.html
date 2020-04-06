@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
+<script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Anton|Baloo+Thambi+2|Do+Hyeon|Lobster|Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+    <title>THIS GUY IS AWESOME</title>
+  </head>
+
+
+
+
+
+
+  <body>
+
+                    <nav class="navbar navbar-default  ">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                              <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" type="button" name="button">
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                              </button>
+                              <a class="navbar-brand"href="index.html">RESUME</a>
+                            </div>
+                              <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                              <li class="active" ><a href="index.html">HOME</a></li>
+                              <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="index.html"><span class="caret"></span>&nbsp;ABOUT ME</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#profile">PROFILE</a></li>
+                                    <li><a href="#skills">TECHNICAL SKILLS</a></li>
+                                    <li><a href="#qualifications">ACHIEVEMENTS</a></li>
+                                    <li><a href="#education">EDUCATION</a></li>
+                                    <li><a href="#workshop">SOCIETY WORK</a></li>
+                                </ul>
+                              </li>
+                              <li class="last-class"><a href="#contact">CONTACT ME</a></li>
+                            </ul>
+                            <!--
+                            <ul class="nav navbar-nav navbar-right" >
+                            </ul>
+                            </div>
+                            -->
+                        </div>
+                    </nav>
+
+
+          <section class="main-container">
+            <article class="index-intro">
+                <div class="container">
+                    <div class="jumbotron">
+                          <div class="row">
+                            <div class="col-sm-4">
+                              <img src="mypic.jpeg" alt="">
+                            </div>
+                            <div class="col-sm-8">
+                               <h1>NIKHAR MANCHANDA</h1>
+                               <p>COMPUTER SCIENCE STUDENT</p>
+                            </div>
+
+                          </div>
+                    </div>
+                </div>
+            </article>
+                          <article class="main1">
+
+
+                            <div class="container">
+
+
+                                     <div id="contact"class="contact-me">
+
+                                        <div class="row">
+                                          <div class="col-sm-3">
+                                            <h4>CONTACT ME</h4>
+                                            <div class="contacts2">
+
+                                              <a href="https://github.com/Nikman-hunter9" target="_blank">
+                                                      <div class="imgg1">
+                                                        <img src="git2.png" alt="">
+                                                      </div>
+                                                      <h6 style="color:black"> MY GITHUB PAGE
+                                                    </h6>
+                                              </a>
+                                              <a   href="mailto:nikmanhunter9@gmail.com?subject=" target="_blank">
+                                                  <div class="imgg3">
+                                                    <img src="email3.png" alt="">
+                                                  </div>
+                                                  <h6 style="color:black">EMAIL ME HERE</h6>
+                                              </a>
+                                              <a  href="https://www.truecaller.com/search/in/8963969729" target="_blank">
+                                                   <div class="imgg2">
+                                                     <img src="phone2.png" alt="">
+                                                   </div>
+                                                   <h6 style="color:black"> MY CELL NO.</h6>
+                                              </a>
+
+
+                                            </div>
+                                          </div>
+                                          <div class="col-sm-1">
+
+                                          </div>
+                                          <div class="col-sm-8">
+                                           <h4>MY LOCATION</h4>
+                                           <div id="map"></div>
+   <script>
+// Initialize and add the map
+function initMap() {
+ // The location of Uluru
+ var uluru = {lat: 22.719568, lng: 75.857727};
+ // The map, centered at Uluru
+ var map = new google.maps.Map(
+     document.getElementById('map'), {zoom: 4, center: uluru});
+ // The marker, positioned at Uluru
+ var marker = new google.maps.Marker({position: uluru, map: map});
+}
+   </script>
+   <!--Load the API from the specified URL
+   * The async attribute allows the browser to render the page while the API loads
+   * The key parameter will contain your own API key (which is not needed for this tutorial)
+   * The callback parameter executes the initMap() function
+   -->
+   <script async defer
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByrGnqsVF6pUwEI75PnZ-1AOth3PqKhWc&callback=initMap">
+   </script>
+                                          </div>
+
+                                        </div>
+                                     </div>
+
+                                     <div class="row">
+                                       <div class="col-sm-12">
+                                      <div id="profile" class="profile">
+                                        <h4>PROFILE</h4>
+                                        <p>A freshman studying CSE currently in MANIT Bhopal. <br>I love to explore new stuff and try to learn as much as I can .</p>
+                                      </div>
+                                      <div id="skills"class="skills">
+                                        <h4>TECHNICAL SKILLS</h4>
+                                        <ul>
+                                          <li>PROGRAMMING IN C </li>
+                                           <li>BASIC HTML AND CSS</li>
+                                          <li>PROGRAMMING IN C++</li>
+                                          <li>BASICS OF KOTLIN</li>
+                                          <li>BOOTSTRAP</li>
+                                        </ul>
+                                      </div>
+                                     <div class="languages">
+                                        <h4>LANGUAGES AND FRAMEWORKS WORKED ON</h4>
+                                       <ul>
+
+                                        <li><a href="https://www.cplusplus.com/" target="_blank"><img src="cpp.png" alt=""> </a> </li>
+                                        <li><a href="https://www.w3schools.com/css/" target="_blank"><img src="css 3.png" alt="">  </a> </li>
+                                        <li><a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank"><img src="html 5.png" alt=""> </a>  </li>
+                                        <li><a href="https://kotlinlang.org/" target="_blank"><img src="kotlin.png" alt="">  </a> </li>
+                                        <li><a href="https://getbootstrap.com/" target="_blank"><img src="bootstrap.png" alt="">  </a> </li>
+                                       </ul>
+                                     </div>
+
+                                      <div id="qualifications"class="qualifications">
+                                        <h4>ACHIEVEMENTS</h4>
+                                         <ul>
+                                           <li>CLEARED <a href="http://www.ncert.nic.in/programmes/talent_exam/index_talent.html" target="_blank">NTSE</a> STAGE 1 IN CLASS X</li>
+                                           <li>CLEARED <a href="http://www.kvpy.iisc.ernet.in/main/index.htm" target="_blank">KVPY</a> STAGE 1 IN CLASS XI</li>
+                                           <li>MERIT CERTIFICATION IN <a href="https://www.iapt.org.in/" target="_blank">NSEC</a> and <a href="https://en.wikipedia.org/wiki/National_Standard_Examination_in_Astronomy" target="_blank">NSEA</a> CONDUCTED <br> BY <a href="https://www.iapt.org.in/" target="_blank">IAPT</a> EVERY YEAR</li>
+                                           <li>CLEARED VARIOUS OLYMPIADS INCLUDING NSO,IMO,<br><a href="https://www.unifiedcouncil.com/about-nstse.html" target="_blank">NSTSE</a>,<a href="https://www.mtai.org.in/activities/exams/prmo/" target="_blank">PRE-RMO</a> WITH DISTINGUISHABLE RANK</li>
+                                           <li><a href="http://www.sofworld.org/nso" target="_blank">NSO</a> -2ND LEVEL INTERNATIONAL RANK 251 IN CLASS X</li>
+                                           <li><a href="http://www.sofworld.org/imo" target="_blank">IMO</a> -2ND LEVEL INTERNATIONAL RANK 153 IN CLASS X</li>
+                                           <li><a href="https://jeemain.nta.nic.in/webinfo/public/home.aspx" target="_blank">JEE MAIN</a> RANK - 5650</li>
+                                           <li><a href="https://jeeadv.nic.in/jeeadvapp/root/loginpage.aspx" target="_blank">JEE ADVANCED</a> RANK - 8237</li>
+                                         </ul>
+                                      </div>
+                                      <div id="education"class="education">
+                                        <h4>EDUCATION</h4>
+                                       <div class="edu1">
+                                         <h5>CLASS 12</h5>
+                                         <p>2019 PASS OUT FROM <br><a href="https://www.ndps.edu.in/" target="_blank">NEW DIGAMBER PUBLIC SCHOOL</a><br>WITH 92.2%</p>
+                                       </div>
+                                        <div class="edu2">
+                                          <h5>CLASS 10</h5>
+                                          <p>2017 PASS OUT FROM <br><a href="https://www.ndps.edu.in/" target="_blank">NEW DIGAMBER PUBLIC SCHOOL</a><br>CGPA:10</p>
+                                        </div>
+                                        <div class="edu3">
+                                          <h5>FIRST SEM IN MANIT</h5>
+                                          <p>SECURED 9.51 SGPA IN 1ST SEMESTER</p>
+                                        </div>
+                                        <div class="edu4">
+
+                                        </div>
+                                      </div>
+                                      <div id="workshop" class="workshop">
+                                        <h4>WORKSHOPS ATTENDED AND SOCIETY PARTICIPATION</h4>
+                                        <ul>
+                                          <li>CURRENTLY WORKING AS A TECHNICAL EXECUTIVE IN <a href="https://visionmanit.in/" target="_blank">VISION</a></li>
+                                           <li>ATTENDED VISION C PROGRAMMING WORKSHOP</li>
+                                           <li>WON 1ST PRIZE IN <a href="https://www.sae.org/learn/education/curriculum/jet-toy" target="_blank">AWIM JET TOY BY SAE</a> AT DISTRICT LEVEL <br> AND REPRESENTED MY SCHOOL AT NATIONAL LEVEL TOO</li>
+                                        </ul>
+                                      </div>
+
+                                    </div>
+                                  </div>
+
+
+                            </div>
+                        </article>
+              </section>
+
+                              <footer>
+                                <article class="footer">
+                               <ul>
+                                 <li>  <img class="image1" src="git2.png" alt="git-image"> </li>
+                                 <li> <a href="https://github.com/Nikman-hunter9" target="_blank">My Github Page</a> </li>
+                               </ul>
+                               <ul>
+                                 <li> <img class="image2" src="phone2.png" alt="phone-img"></li>
+                                 <li><a href="https://www.truecaller.com/search/in/8963969729
+                          "  target="_blank">+91 8963969729</a>
+                                 </li>
+                               </ul>
+                               <ul class="last">
+                                 <li> <img class="image3" src="email2.png" alt="email-img"></li>
+                                 <li><a href="mailto:nikmanhunter9@gmail.com?subject=">Email Me Here</a></li>
+                               </ul>
+
+                            </article>
+                            </footer>
+
+  </body>
+</html>
