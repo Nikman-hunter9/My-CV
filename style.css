@@ -52,7 +52,7 @@ nav .container-fluid .navbar-header a{
                0 20px 20px rgba(0,0,0,.15);
 }
 .index-intro .container .jumbotron .row .col-sm-8 p{
-
+font-weight: bold;
 }
 .contact-me .row .col-sm-8 #map{
   height:300px;
